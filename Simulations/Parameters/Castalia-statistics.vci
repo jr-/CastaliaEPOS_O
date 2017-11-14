@@ -1,0 +1,34 @@
+file 2506 1510692741                                            
+version 2
+run General-0-20171114-18:52:21-3899
+attr configname General
+attr datetime 20171114-18:52:21
+attr experiment General
+attr inifile securityTest.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network SN
+attr processid 3899
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 42
+
+vector 5  SN.node[0].Communication.MAC  "MAC Pickup Time"  ETV
+vector 4  SN.node[0].Communication.MAC  Offset  ETV
+vector 6  SN.node[0].Communication.MAC  "Frame IDs transmitted"  ETV
+vector 9  SN.node[1].Communication.MAC  Offset  ETV
+vector 11  SN.node[1].Communication.MAC  "Frame IDs transmitted"  ETV
+vector 10  SN.node[1].Communication.MAC  "MAC Pickup Time"  ETV
+vector 7  SN.node[1].Communication.Routing  "Timer adjusts"  ETV
+vector 3  SN.node[0].Communication.MAC  "Timer Error"  ETV
+3	858 986 28686 33048 32.0004504888 60.0008446665 29 13 17.931034482759 445.45323295877 6908.5961668688
+4	1844 129 4710 22712 30.073683364424 31.662237020421 4 0.00032 0.000717 0.00182 9.33258e-07
+5	1973 65 4710 22712 30.073683364424 31.662237020421 2 0.072839 0.285965 0.358804 0.087081501146
+6	2038 115 4731 22726 30.075066103889 31.663873673461 4 1175 3522 10534 30915006
+7	2153 40 25698 25698 31.808807701244 31.808807701244 1 1.0000083768531 1.0000083768531 1.0000083768531 1.0000167537764
+9	2193 128 7708 25705 30.223401312614 31.810048893138 4 0.00032 0.001006 0.002096 1.419336e-06
+10	2321 68 10695 16732 30.508411371175 31.229688791905 2 0.007877 0.286645 0.294522 0.082227403154
+11	2389 117 7721 25718 30.22464034043 31.811287920954 4 1175 3522 10534 30915006

@@ -1,0 +1,169 @@
+version 2
+run General-0-20171114-18:52:21-3899
+attr configname General
+attr datetime 20171114-18:52:21
+attr experiment General
+attr inifile securityTest.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network SN
+attr processid 3899
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 42
+
+scalar SN.node[0].ResourceManager 	"Consumed Energy" 	2.7403769756238
+scalar SN.node[0].ResourceManager 	"Remaining Energy" 	18717.259623024
+scalar SN.node[0].ResourceManager 	"Estimated network lifetime (days)" 	4.7439396574684
+scalar SN.node[0].Communication.Radio 	"Time in RX mode" 	0.541153188507
+scalar SN.node[0].Communication.Radio 	"Time in TX mode" 	0.42836
+scalar SN.node[0].Communication.Radio 	"Time in SLEEP mode" 	59.031331477993
+scalar SN.node[0].Communication.Radio 	"RX duty cycle" 	0.0090190928396903
+scalar SN.node[0].Communication.Radio 	"TX duty cycle" 	0.0071392328288199
+scalar SN.node[0].Communication.Radio 	"SLEEP duty cycle" 	0.98384167433149
+scalar SN.node[0].Communication.Radio 	"RX+TX duty cycle" 	0.01615832566851
+scalar SN.node[0].Communication.Radio 	"TXed pkts" 	788
+scalar SN.node[0].Communication.Radio 	"TXed bytes" 	7427
+scalar SN.node[0].Communication.Radio 	"Total TXed pkts" 	1576
+scalar SN.node[0].Communication.Radio 	"Total TXed bytes" 	14854
+scalar SN.node[0].Communication.Radio 	"RX with NO interference" 	10
+scalar SN.node[0].Communication.Radio 	"RX Failed, non RX state" 	778
+scalar SN.node[0].Communication.MAC 	"TX Schedule final size" 	0
+scalar SN.node[0].Communication.MAC 	"Microframes sent" 	784
+scalar SN.node[0].Communication.MAC 	"Data frames sent" 	0
+scalar SN.node[0].Communication.MAC 	"Hash collisions" 	0
+scalar SN.node[0].Communication.MAC 	"Max times txed" 	1
+scalar SN.node[0].Communication.MAC 	drop_expired 	1
+scalar SN.node[0].Communication.MAC 	sniffer 	0
+scalar SN.node[0].Communication.MAC 	state_machine_debugged 	1
+scalar SN.node[0].Communication.MAC 	"First data frame send time" 	30.216980131667
+scalar SN.node[0].Communication.MAC 	"Last data frame send time" 	31.805787701239
+scalar SN.node[0].Communication.MAC 	"Radio RX processing delay" 	1e-05
+scalar SN.node[0].Communication.MAC 	"Global Keep Alives sent" 	0
+scalar SN.node[0].Communication.MAC 	MICROFRAME_SIZE 	9
+scalar SN.node[0].Communication.MAC 	DESIRED_DUTY_CYCLE 	10000
+scalar SN.node[0].Communication.MAC 	INT_HANDLING_DELAY 	0
+scalar SN.node[0].Communication.MAC 	SLEEP_TO_TX_DELAY 	194
+scalar SN.node[0].Communication.MAC 	RX_TO_TX_DELAY 	10
+scalar SN.node[0].Communication.MAC 	Tu 	192
+scalar SN.node[0].Communication.MAC 	Ti 	245
+scalar SN.node[0].Communication.MAC 	TIME_BETWEEN_MICROFRAMES 	245
+scalar SN.node[0].Communication.MAC 	Ts 	480
+scalar SN.node[0].Communication.MAC 	MICROFRAME_TIME 	480
+scalar SN.node[0].Communication.MAC 	Tr 	1409
+scalar SN.node[0].Communication.MAC 	RX_MF_TIMEOUT 	1409
+scalar SN.node[0].Communication.MAC 	NMF 	196
+scalar SN.node[0].Communication.MAC 	N_MICROFRAMES 	196
+scalar SN.node[0].Communication.MAC 	CI 	141855
+scalar SN.node[0].Communication.MAC 	PERIOD 	141855
+scalar SN.node[0].Communication.MAC 	SLEEP_PERIOD 	140446
+scalar SN.node[0].Communication.MAC 	DUTY_CYCLE 	9932
+scalar SN.node[0].Communication.MAC 	DATA_LISTEN_MARGIN 	2175
+scalar SN.node[0].Communication.MAC 	DATA_SKIP_TIME 	4256
+scalar SN.node[0].Communication.MAC 	RX_DATA_TIMEOUT 	6431
+scalar SN.node[0].Communication.MAC 	G 	160
+scalar SN.node[0].Communication.MAC 	CCA_TIME 	919
+scalar SN.node[0].Communication.MAC 	OFFSET_GENERAL_LOWER_BOUND 	320
+scalar SN.node[0].Communication.MAC 	OFFSET_GENERAL_UPPER_BOUND 	138843
+scalar SN.node[0].Communication.MAC 	OFFSET_UPPER_BOUND 	138843
+scalar SN.node[0].Communication.MAC 	OFFSET_LOWER_BOUND 	160
+scalar SN.node[0].Communication.MAC 	"Preamble time" 	0.1421
+scalar SN.node[0].Communication.MAC 	"Fairness Index" 	1
+scalar SN.node[0].Communication.MAC 	"Total hash collisions" 	0
+scalar SN.node[0].Communication.MAC 	Instances 	2
+scalar SN.node[0].Communication.MAC 	"Average clock error (ts)" 	17.931034482759
+scalar SN.node[0].Communication.MAC 	"Average clock error (us)" 	0
+scalar SN.node[0].Communication.Routing 	"Here x" 	0
+scalar SN.node[0].Communication.Routing 	"Here y" 	0
+scalar SN.node[0].Communication.Routing 	"Here z" 	0
+scalar SN.node[0].Communication.Routing 	"Using Effort Metric" 	0
+scalar SN.node[0].Communication.Routing 	"Using Old Expiry Metric" 	0
+scalar SN.node[0].Communication.Routing 	"Using Expiry Metric" 	1
+scalar SN.node[0].Communication.Routing 	"Using Random Metric" 	0
+scalar SN.node[0].Communication.Routing 	"Number of allocated buffers" 	4
+scalar SN.node[0].Communication.Routing 	"Timer drift" 	1.0000140777757
+scalar SN.node[0].Communication.Routing 	"Number of timer adjustments" 	0
+scalar SN.node[0].Communication.Routing 	"Total timer error (timestamp)" 	0
+scalar SN.node[0].Communication.Routing 	"Total timer error (us)" 	0
+scalar SN.node[0].Communication.Routing 	"Max timer error (timestamp)" 	0
+scalar SN.node[0].Communication.Routing 	"Max timer error (us)" 	0
+scalar SN.node[0].Application 	"PTP Period" 	0
+scalar SN.node[0].Application 	"HECOPS Period" 	0
+scalar SN.node[0].Application 	"Data Period" 	0
+scalar SN.node[0].Application 	"Data Packet Generation Chance" 	1
+scalar SN.node[0].Application 	"Data Packet Limit" 	0
+scalar SN.node[0].Application 	"Packet Time Limit" 	0
+scalar SN.node[0].Application 	ptpMaster 	0
+scalar SN.node[0].Application 	"Data Packets Sent" 	0
+scalar SN.node[0].Application 	"PTP Packets Sent" 	0
+scalar SN.node[0].Application 	"HECOPS Packets Sent" 	0
+scalar SN.node[0].Application 	"Total Packets Sent" 	0
+scalar SN.node[0].Application 	"Global Data Packets Sent" 	0
+scalar SN.node[0].Application 	"Global PTP Packets Sent" 	0
+scalar SN.node[0].Application 	"Global HECOPS Packets Sent" 	0
+scalar SN.node[0].Application 	"Global Total Packets Sent" 	0
+scalar SN.node[0].Application 	"Data Packets Received" 	0
+scalar SN.node[0].Application 	"PTP Packets Received" 	0
+scalar SN.node[0].Application 	"HECOPS Packets Received" 	0
+scalar SN.node[0].Application 	"Total Packets Received" 	0
+scalar SN.node[0].Application 	"Global Data Packets Received" 	0
+scalar SN.node[0].Application 	"Global PTP Packets Received" 	0
+scalar SN.node[0].Application 	"Global HECOPS Packets Received" 	0
+scalar SN.node[0].Application 	"Global Total Packets Received" 	0
+scalar SN.node[0].Application 	"Fairness Index" 	1
+scalar SN.node[1].ResourceManager 	"Consumed Energy" 	2.7403207595162
+scalar SN.node[1].ResourceManager 	"Remaining Energy" 	18717.25967924
+scalar SN.node[1].Communication.Radio 	"Time in RX mode" 	0.541618981157
+scalar SN.node[1].Communication.Radio 	"Time in TX mode" 	0.42836
+scalar SN.node[1].Communication.Radio 	"Time in SLEEP mode" 	59.030865685343
+scalar SN.node[1].Communication.Radio 	"RX duty cycle" 	0.0090268559412364
+scalar SN.node[1].Communication.Radio 	"TX duty cycle" 	0.0071392328288199
+scalar SN.node[1].Communication.Radio 	"SLEEP duty cycle" 	0.98383391122994
+scalar SN.node[1].Communication.Radio 	"RX+TX duty cycle" 	0.016166088770056
+scalar SN.node[1].Communication.Radio 	"TXed pkts" 	788
+scalar SN.node[1].Communication.Radio 	"TXed bytes" 	7427
+scalar SN.node[1].Communication.Radio 	"RX with NO interference" 	8
+scalar SN.node[1].Communication.Radio 	"RX Failed, non RX state" 	780
+scalar SN.node[1].Communication.MAC 	"TX Schedule final size" 	0
+scalar SN.node[1].Communication.MAC 	"Microframes sent" 	784
+scalar SN.node[1].Communication.MAC 	"Data frames sent" 	0
+scalar SN.node[1].Communication.MAC 	"Hash collisions" 	0
+scalar SN.node[1].Communication.MAC 	"Max times txed" 	1
+scalar SN.node[1].Communication.MAC 	drop_expired 	1
+scalar SN.node[1].Communication.MAC 	sniffer 	0
+scalar SN.node[1].Communication.MAC 	state_machine_debugged 	1
+scalar SN.node[1].Communication.MAC 	"First data frame send time" 	30.366553186395
+scalar SN.node[1].Communication.MAC 	"Last data frame send time" 	31.953201946919
+scalar SN.node[1].Communication.MAC 	"Radio RX processing delay" 	1e-05
+scalar SN.node[1].Communication.Routing 	"Here x" 	100
+scalar SN.node[1].Communication.Routing 	"Here y" 	0
+scalar SN.node[1].Communication.Routing 	"Here z" 	0
+scalar SN.node[1].Communication.Routing 	"Using Effort Metric" 	0
+scalar SN.node[1].Communication.Routing 	"Using Old Expiry Metric" 	0
+scalar SN.node[1].Communication.Routing 	"Using Expiry Metric" 	1
+scalar SN.node[1].Communication.Routing 	"Using Random Metric" 	0
+scalar SN.node[1].Communication.Routing 	"Number of allocated buffers" 	4
+scalar SN.node[1].Communication.Routing 	"Timer drift" 	1.0000224509572
+scalar SN.node[1].Communication.Routing 	"Number of timer adjustments" 	0
+scalar SN.node[1].Communication.Routing 	"Total timer error (timestamp)" 	0
+scalar SN.node[1].Communication.Routing 	"Total timer error (us)" 	0
+scalar SN.node[1].Communication.Routing 	"Max timer error (timestamp)" 	0
+scalar SN.node[1].Communication.Routing 	"Max timer error (us)" 	0
+scalar SN.node[1].Application 	"PTP Period" 	0
+scalar SN.node[1].Application 	"HECOPS Period" 	0
+scalar SN.node[1].Application 	"Data Period" 	0
+scalar SN.node[1].Application 	"Data Packet Generation Chance" 	1
+scalar SN.node[1].Application 	"Data Packet Limit" 	0
+scalar SN.node[1].Application 	"Packet Time Limit" 	0
+scalar SN.node[1].Application 	ptpMaster 	0
+scalar SN.node[1].Application 	"Data Packets Sent" 	0
+scalar SN.node[1].Application 	"PTP Packets Sent" 	0
+scalar SN.node[1].Application 	"HECOPS Packets Sent" 	0
+scalar SN.node[1].Application 	"Total Packets Sent" 	0
+scalar SN.node[1].Application 	"Data Packets Received" 	0
+scalar SN.node[1].Application 	"PTP Packets Received" 	0
+scalar SN.node[1].Application 	"HECOPS Packets Received" 	0
+scalar SN.node[1].Application 	"Total Packets Received" 	0

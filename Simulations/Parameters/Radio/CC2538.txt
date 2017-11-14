@@ -1,0 +1,32 @@
+RX MODES
+# Name, dataRate(kbps), modulationType, bitsPerSymbol, bandwidth(MHz), noiseBandwidth(KHz), noiseFloor(dBm), sensitivity(dBm), powerConsumed(mW)
+normal, 250, PSK, 4, 20, 194, -100, -97, 60
+
+# Note: PSK == OQPSK (https://groups.google.com/forum/#!topic/castalia-simulator/jM8WOhrk7uc): 
+# Athanassios Boulis	
+# 5/18/11
+# Yes, ODPSK has the same SNR-to-bit-error-probability function with what we call PSK  which essentially is BPSK or DPSK (the two are equivalent). The ODPSK is just a variant that does not change the modulation curve.
+# http://en.wikipedia.org/wiki/Phase-shift_keying
+# Note that DiffBPSK and DiffQPSK are different and we have dedicated modulation types for these in Castalia.
+
+
+TX LEVELS
+Tx_dBm 7 0
+Tx_mW 102 72
+
+DELAY TRANSITION MATRIX
+# State switching times (time to switch from column state to row state, in msec)
+#	RX	TX	SLEEP
+RX	-	0.01	0.194
+TX	0.01	-	0.194
+SLEEP	0.05	0.05	-
+
+POWER TRANSITION MATRIX
+#       RX      TX      SLEEP
+RX	-	60	60
+TX	60	-	60
+SLEEP	39	39	-
+
+# Assumes ResourceManager.baselineNodePower = 0
+SLEEP LEVELS
+idle 39, -, -, -, -

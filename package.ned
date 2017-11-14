@@ -1,0 +1,3 @@
+package castaliaoriginal;
+
+@license(LGPL);
